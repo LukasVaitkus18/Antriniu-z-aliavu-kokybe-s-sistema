@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(42, 74, 133, 0.199);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  padding: 50px;
+}
+h1 {
+  font-size: 35px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+h2 {
+  margin-top: 20px;
+}
+
+p {
+  margin-top: 20px;
+}
+.first {
+  color: rgb(24, 8, 8);
+}
+.reference {
+  font-weight: bolder;
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 30px;
+}
+a {
+  font-size: 30px;
+  color: black;
+  background-color: rgba(42, 74, 133, 0.199);
+}
