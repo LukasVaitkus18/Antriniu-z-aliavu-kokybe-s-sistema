@@ -4,8 +4,9 @@
     $password = '';  
     $db_name = "AZ_clients";  
       
-    $con = mysqli_connect($host, $user, $password, $db_name);  
-    if(mysqli_connect_errno()) {  
-        die("Failed to connect with MySQL: ". mysqli_connect_error());  
+    $conn = new mysqli($host, $user, $password, $db_name);  
+    if($conn->connect_error) {  
+        die("Failed to connect with MySQL: ". $conn->connect_error);  
     }  
+    echo "Connected successfully";
 ?>  
