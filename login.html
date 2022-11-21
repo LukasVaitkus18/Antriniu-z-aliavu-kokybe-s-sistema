@@ -11,7 +11,7 @@
   <body>
     <h2>Login Form</h2>
 
-    <form action="/action_page.php" method="post">
+    <form name="f1" action="authentication.php" method="post">
       <div class="imgcontainer">
         <img src="img/DJI_0019-Edit-635x375.jpeg" alt="pic" class="pic" />
       </div>
@@ -19,7 +19,13 @@
       <div class="container">
         <label for="uname"><b>Username</b></label>
         <br />
-        <input type="text" placeholder="Enter Username" name="uname" required />
+        <input
+          type="text"
+          id="user"
+          placeholder="Enter Username"
+          name="user"
+          required
+        />
         <br />
 
         <label for="psw"><b>Password</b></label>
@@ -27,12 +33,13 @@
 
         <input
           type="password"
+          id="pass"
           placeholder="Enter Password"
-          name="psw"
+          name="pass"
           required
         />
-        <button type="submit">Login</button>
 
+        <button type="submit" id="btn">Login</button>
         <label>
           <br />
           <input type="checkbox" checked="checked" name="remember" /> Remember
