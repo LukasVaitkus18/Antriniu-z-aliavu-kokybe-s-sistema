@@ -1,4 +1,4 @@
-<?php      
+<!-- <?php      
     include('connection.php');  
     $username = $_POST['user'];  
     $password = $_POST['pass'];  
@@ -22,4 +22,4 @@
         else{  
             echo "<h1> Login failed. Invalid username or password.</h1>";  
         }     
-?>  
+?>   -->

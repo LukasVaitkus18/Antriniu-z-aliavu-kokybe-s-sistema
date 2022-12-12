@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,9 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" />
     <script src="script.js" defer></script>
-  </head>
-  <body>
-    <div class="header">
+</head>
+<body>
+
+	<a style="font-size:20px; float:right" href="logout.php">Logout</a>
+	<!-- <h1>This is the index page</h1> -->
+
+	<!-- <br>
+	Hello, <?php echo $user_data['user_name']; ?> -->
+
+  <div class="header">
       <img src="img/somlita-uab.png" alt="" />
       <!-- <h1>Polietileno plėvelės perdirbimas ir gamyba</h1> -->
     </div>
@@ -48,5 +57,14 @@
     </form>
     <p class="reference">Shipment reference:</p>
     <p><a href="https://somlita.lt/">Somlita's webpage</a></p>
-  </body>
+</body>
 </html>
+<?php 
+session_start();
+
+	include("connection.php");
+	include("functions.php");
+
+	$user_data = check_login($con);
+
+?>

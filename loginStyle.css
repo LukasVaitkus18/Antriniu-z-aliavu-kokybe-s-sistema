@@ -16,7 +16,7 @@ input[type="password"] {
   box-sizing: border-box;
 }
 
-button {
+/* input[type="submit"] {
   background-color: #04aa6d;
   color: white;
   padding: 14px 20px;
@@ -25,9 +25,9 @@ button {
   cursor: pointer;
   width: 50%;
   text-align: center;
-}
+} */
 
-button:hover {
+input[type="submit"]:hover {
   opacity: 0.8;
 }
 
@@ -55,8 +55,5 @@ span.psw {
   span.psw {
     display: block;
     float: none;
-  }
-  .cancelbtn {
-    width: 100%;
   }
 }
