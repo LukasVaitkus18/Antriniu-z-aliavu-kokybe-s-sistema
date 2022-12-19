@@ -23,7 +23,7 @@ input[type="password"]:focus {
   outline: none;
 }
 input[type="submit"]:focus {
-  background-color: green;
+  background-color: rgb(162, 181, 162);
   outline: none;
 }
 hr {
@@ -33,7 +33,7 @@ hr {
 
 /* Set a style for all buttons */
 button {
-  background-color: #04aa6d;
+  background-color: #8e9894;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
